@@ -6,28 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.github.jw3.xbtgps.MainActivity">
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="353dp"
-        android:layout_height="74dp"
-        android:ems="10"
-        android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="421dp" />
+    <com.esri.arcgisruntime.mapping.view.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView2"
-        android:layout_width="222dp"
-        android:layout_height="249dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <android.support.constraint.Barrier
-        android:id="@+id/barrier2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:barrierDirection="left"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="355dp" />
+    </com.esri.arcgisruntime.mapping.view.MapView>
 
 </android.support.constraint.ConstraintLayout>
