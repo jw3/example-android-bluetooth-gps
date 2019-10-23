@@ -1,0 +1,5 @@
+[requires]
+  particle-common/0.3.0@jw3/stable
+
+[generators]
+  cmake
